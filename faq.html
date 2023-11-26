@@ -2,7 +2,7 @@
 <html lang="ru">
 
 <head>
-	<title>Order</title>
+	<title>FAQ</title>
 	<meta charset="UTF-8" />
 	<meta name="format-detection" content="telephone=no" />
 	<meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1, user-scalable=0" />
@@ -375,171 +375,163 @@
 
 			</div>
 
-			<section class="order">
-				<div class="order__container">
-					<h1 class="order__title">Оформление заказа</h1>
-					<div class="order__form">
-						<form action="#" id="orderForm" method="POST">
-							<div class="order__info">
-								<h2 class="order__subtitle">Контактная информация</h2>
-								<div class="order__row">
-									<div class="order__column">
+			<section class="faq">
+				<div class="faq__container">
+					<h1 class="faq__title">Часто задаваемые вопросы</h1>
+					<div class="faq__search">
+						<form role="search" method="get" class="faq__search-form " action="#">
+							<input class="faq__search-input input" type="search" placeholder="Поиск" autocomplete="off" value="" name="s" />
+							<button class="faq__search-button" type="submit" value="Пошук">
+								<svg class="icon-box">
+									<use xlink:href="img/icons/icons.svg#iconamoon_search-bold"></use>
+								</svg>
+							</button>
+							<input type="hidden" name="post_type" value="product" />
+						</form>
+						<!-- <div class="faq__result hidden">
+                            <div class="faq__result-item">
+                                <a href="#" class="faq__result-link">
+                                    <div class="faq__result-img">
+                                      
+                                    </div>
+                                    <div class="faq__result-content">
+                                        <h3 class="faq__result-title">
+                                            Viktor Rolf Flowerbomb Bloom fw EDT 1.2ml mini
+                                        </h3>
+                                        <span class="faq__result-amount">137<span>&nbsp;грн</span></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="faq__result-item">
+                                <a href="#" class="faq__result-link">
+                                    <div class="faq__result-content">
+                                        <h3 class="faq__result-title">
+                                            Viktor Rolf Flowerbomb Bloom fw EDT 1.2ml mini
+                                        </h3>
+                                        <span class="faq__result-amount">137<span>&nbsp;грн</span></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div> -->
+					</div>
+					<div class="faq__accordion">
+						<ul class="faq__accordion-list">
+							<li class="faq__accordion-item">
+								<h2 class="faq__accordion-title">Водонагреватели</h2>
+								<ul class="faq__accordion-body">
+									<li class="faq__accordion-item">
+										<h3 class="faq__accordion-title">Можно ли охладить всю квартиру одной
+											сплит-системой, установив ее в коридоре?</h3>
+										<div class="faq__accordion-body">
+
+											<p class="faq__accordion-text">Такой перепад высот могут вытянуть аппараты
+												мощностью более 8,2 кВт кассетного или напольно-потолочного типа.
+												Сплит-системы бытового класса могут работать при перепаде высот максимум
+												5–8 метров. (в зависимости от модели).</p>
+											<p class="faq__accordion-text">Если под расстоянием Вы понимаете
+												протяженность трасс, то без дозаправки фреоном протяженность составляет
+												5 метров, максимальная у бытовых сплит-систем мощностью до 4,5 кВт — 15
+												метров.</p>
+
+										</div>
+									</li>
+									<li class="faq__accordion-item">
+										<h3 class="faq__accordion-title">Требуется ли альпинист при монтаже наружного
+											блока сплит-системы на 8 этаже?</h3>
+										<div class="faq__accordion-body">
+
+											<h4 class="faq__accordion-title">Возможно ли установить наружный блок
+												сплит-системы на 12 м ниже внутреннего?</h4>
+											<p class="faq__accordion-text">Такой перепад высот могут вытянуть аппараты
+												мощностью более 8,2 кВт кассетного или напольно-потолочного типа.
+												Сплит-системы бытового класса могут работать при перепаде высот максимум
+												5–8 метров. (в зависимости от модели).</p>
+											<p class="faq__accordion-text">Если под расстоянием Вы понимаете
+												протяженность трасс, то без дозаправки фреоном протяженность составляет
+												5 метров, максимальная у бытовых сплит-систем мощностью до 4,5 кВт — 15
+												метров.</p>
+
+										</div>
+									</li>
+								</ul>
+							</li>
+							<li class="faq__accordion-item">
+								<h2 class="faq__accordion-title">Кондиционеры</h2>
+								<ul class="faq__accordion-body">
+									<li class="faq__accordion-item">
+										<h3 class="faq__accordion-title">Можно ли охладить всю квартиру одной
+											сплит-системой, установив ее в коридоре?</h3>
+										<div class="faq__accordion-body">
+
+											<h4 class="faq__accordion-title">Возможно ли установить наружный блок
+												сплит-системы на 12 м ниже внутреннего?</h4>
+											<p class="faq__accordion-text">Такой перепад высот могут вытянуть аппараты
+												мощностью более 8,2 кВт кассетного или напольно-потолочного типа.
+												Сплит-системы бытового класса могут работать при перепаде высот максимум
+												5–8 метров. (в зависимости от модели).</p>
+											<p class="faq__accordion-text">Если под расстоянием Вы понимаете
+												протяженность трасс, то без дозаправки фреоном протяженность составляет
+												5 метров, максимальная у бытовых сплит-систем мощностью до 4,5 кВт — 15
+												метров.</p>
+
+										</div>
+									</li>
+									<li class="faq__accordion-item">
+										<h3 class="faq__accordion-title">Требуется ли альпинист при монтаже наружного
+											блока сплит-системы на 8 этаже?</h3>
+										<div class="faq__accordion-body">
+
+											<h4 class="faq__accordion-title">Возможно ли установить наружный блок
+												сплит-системы на 12 м ниже внутреннего?</h4>
+											<p class="faq__accordion-text">Такой перепад высот могут вытянуть аппараты
+												мощностью более 8,2 кВт кассетного или напольно-потолочного типа.
+												Сплит-системы бытового класса могут работать при перепаде высот максимум
+												5–8 метров. (в зависимости от модели).</p>
+											<p class="faq__accordion-text">Если под расстоянием Вы понимаете
+												протяженность трасс, то без дозаправки фреоном протяженность составляет
+												5 метров, максимальная у бытовых сплит-систем мощностью до 4,5 кВт — 15
+												метров.</p>
+
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					<div class="faq__form">
+						<form action="#" id="faqForm" method="POST">
+							<div class="faq__info">
+								<h2 class="faq__subtitle">Не нашли нужный ответ? Вы можете задать нам его.</h2>
+								<div class="faq__row">
+									<div class="faq__column">
 										<label for="form[name]" id="nameError">Ваше имя<span>*</span> </label>
 										<input type="text" name="form[name]" placeholder="Ваше имя" class="input input-name" required>
 									</div>
-									<div class="order__column"> <label for="form[phone]">Телефон<span>*</span></label>
+									<div class="faq__column"> <label for="form[phone]">Телефон<span>*</span></label>
 										<input type="tel" name="form[phone]" pattern="[0-9]{10}" required placeholder="Телефон*" class="input input-phone">
 									</div>
-									<div class="order__column"> <label for="form[email]">E-mail<span>*</span></label>
+									<div class="faq__column"> <label for="form[email]">E-mail<span>*</span></label>
 										<input required type="email" name="form[email]" placeholder="E-mail" class="input">
 									</div>
 								</div>
 
-								<div class="order__box-item">
-									<input type="checkbox" class="order__custom" id="check_1" name="check_1" value="yes">
-									<label for="check_1">Заказ от имени юридического лица</label>
-									<p>При оформлении заказа от имени юридического лица доставка СДЭК недоступна</p>
-								</div>
+
 							</div>
-							<div class="order__city">
-								<h2 class="order__subtitle">Город</h2>
-								<div class="order__select">
-									<div class="order__selected">Москва</div>
-									<button type="button" class="order__btn">Сменить</button>
 
-									<div class="order__items">
-										<span>Владивосток</span>
-										<span>Курск</span>
-										<span>Ростов</span>
-									</div>
-								</div>
-							</div>
-							<div class="order__delivery">
-								<h2 class="order__subtitle">Способы доставки</h2>
-								<ul class="order__radio-list">
-									<li class="order__box-item">
-										<input type="radio" class="order__custom" id="radio_1" name="radio_1" value="yes">
-										<label for="radio_1"><span>Самовывоз из магазина Rusklimat</span> <span>0
-												руб.</span></label>
+							<div class="faq__comments">
 
-									</li>
-									<li class="order__box-item">
-										<input type="radio" class="order__custom" id="radio_2" name="radio_1" value="yes">
-										<label for="radio_2"><span>Курьерская доставка</span> <span>от 300 руб. 1-3
-												дня</span></label>
-
-									</li>
-									<li class="order__box-item">
-										<input type="radio" class="order__custom" id="radio_3" name="radio_1" value="yes">
-										<label for="radio_3"><span>Доставка транспортной компанией</span>
-											<span>от 200 руб. 1-5 дней</span>
-										</label>
+								<textarea name="comments-area" id="" placeholder="Ваш комментарий" class="input faq__comments-area"></textarea>
 
 
-									</li>
-								</ul>
-
-								<div class="order__maps">
-									<div class="order__maps-content">
-										<ul class="order__maps-list">
-											<li data-index="0">
-												<input type="radio" class="order__custom" id="radio_4" name="radio_1" value="yes">
-												<label for="radio_4"><span>Магазин «Русклимат» в выставочном комплексе
-														«Экспострой на Нахимовском»</span>
-													<span>8 (495) 803-33-86</span>
-													<span>117218, Москва г., Нахимовский проспект, дом 24</span>
-												</label>
-											</li>
-											<li data-index="1">
-												<input type="radio" class="order__custom" id="radio_5" name="radio_1" value="yes">
-												<label for="radio_5"><span>Климатический центр Русклимат, Центральный
-														офис</span>
-													<span>8 (495) 803-33-86</span>
-													<span>117218, Москва г., Нахимовский проспект, дом 24</span>
-												</label>
-											</li>
-											<li data-index="2">
-												<input type="radio" class="order__custom" id="radio_6" name="radio_1" value="yes">
-												<label for="radio_6"><span>Магазин «Русклимат» в ТК «Каширский
-														Двор»</span>
-													<span>8 (495) 803-33-86</span>
-													<span>117218, Москва г., Нахимовский проспект, дом 24</span>
-												</label>
-											</li>
-											<li data-index="3">
-												<input type="radio" class="order__custom" id="radio_7" name="radio_1" value="yes">
-												<label for="radio_7"><span>Магазин «Русклимат» в выставочном комплексе
-														«Экспострой на Нахимовском»</span>
-													<span>8 (495) 803-33-86</span>
-													<span>117218, Москва г., Нахимовский проспект, дом 24</span>
-												</label>
-											</li>
-											<li data-index="4">
-												<input type="radio" class="order__custom" id="radio_8" name="radio_1" value="yes">
-												<label for="radio_8"><span>Магазин «Русклимат» в Торговом центре
-														“Можайский
-														двор”.</span>
-													<span>8 (495) 803-33-86</span>
-													<span>117218, Москва г., Нахимовский проспект, дом 24</span>
-												</label>
-											</li>
-
-										</ul>
-									</div>
-
-									<div id="order__ymap">
-									</div>
-								</div>
-							</div>
-							<div class="order__methods">
-								<h2 class="order__subtitle">Способы оплаты</h2>
-								<ul class="order__radio-list">
-									<li class="order__box-item">
-										<input type="radio" class="order__custom" id="radio_10" name="radio_2" value="yes">
-										<label for="radio_10"><span>СБП</span></label>
-
-									</li>
-									<li class="order__box-item">
-										<input type="radio" class="order__custom" id="radio_11" name="radio_2" value="yes">
-										<label for="radio_11"><span>Наличными при получении</span> </label>
-
-									</li>
-									<li class="order__box-item">
-										<input type="radio" class="order__custom" id="radio_12" name="radio_2" value="yes">
-										<label for="radio_12"><span>Картой при получении</span>
-										</label>
-									</li>
-									<li class="order__box-item">
-										<input type="radio" class="order__custom" id="radio_13" name="radio_2" value="yes">
-										<label for="radio_13"><span>Онлайн оплата на сайте</span>
-										</label>
-									</li>
-									<li class="order__box-item">
-										<input type="radio" class="order__custom" id="radio_14" name="radio_2" value="yes">
-										<label for="radio_14"><span>Покупка со Сбером в рассрочку</span>
-										</label>
-									</li>
-								</ul>
-							</div>
-							<div class="order__comments">
-								<h2 class="order__subtitle">Комментарий к заказу</h2>
-								<textarea name="comments-area" id="" cols="30" rows="10" placeholder="Ваш комментарий" class="input order__comments-area"></textarea>
-
-								<div class="order__total">
-									<span>Стоимость заказа: <span>12 600 </span></span>
-									<span>Самовывоз из магазина: <span>бесплатно</span></span>
-									<span>Итого к оплате: <span>12 600 </span></span>
-								</div>
-
-								<div class="order__item-list">
-									<div class="order__box-item">
-										<input type="checkbox" class="order__custom" required id="check_2" name="check_2" value="yes">
+								<div class="faq__item-list">
+									<div class="faq__box-item">
+										<input type="checkbox" class="faq__custom" required id="check_2" name="check_2" value="yes">
 										<label for="check_2">Я ознакомлен и согласен на <a href="#"> передачу и
 												обработку персональных данных</a></label>
 
 									</div>
-									<div class="order__box-item">
-										<input type="checkbox" class="order__custom" id="check_3" name="check_3" value="yes">
+									<div class="faq__box-item">
+										<input type="checkbox" class="faq__custom" id="check_3" name="check_3" value="yes">
 										<label for="check_3">Я согласен на получение информации о скидках и
 											акциях</label>
 
@@ -547,7 +539,7 @@
 								</div>
 
 							</div>
-							<button type="submit" class="order__button">Оформить заказ</button>
+							<button type="submit" class="faq__button">Отправить</button>
 						</form>
 					</div>
 
