@@ -5474,7 +5474,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .productwan__thumbs {
-  height: 100%;
+  height: auto;
   max-height: 490px;
 }
 
@@ -8775,7 +8775,7 @@ span#slider-snap-value-upper {
 
 @media screen and (max-width: 792px) {
   .basket__col:last-child {
-    max-width: 29vw;
+    max-width: 100%;
   }
 }
 
@@ -9795,6 +9795,10 @@ span#slider-snap-value-upper {
 
   .contact ymaps.ymaps-2-1-79-copyrights-pane {
     display: none;
+  }
+
+  .productwan__slide {
+    height: auto !important;
   }
 
   .product__title {
