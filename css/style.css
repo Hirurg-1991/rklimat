@@ -191,13 +191,6 @@ body body::after {
   font-size: 128px;
 }
 
-/*
-(i) Стилі будуть застосовуватись до
-всіх класів, що містять *__container
-Наприклад header__container, main__container і т.п.
-Сніппет (HTML): cnt
-*/
-
 [class*=__container] {
   max-width: 109.25rem;
   margin: 0 auto;
@@ -6325,7 +6318,7 @@ input[type=number]::-webkit-outer-spin-button {
   z-index: 5;
 }
 
-.rating {
+ting .rating {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
