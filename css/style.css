@@ -202,7 +202,7 @@ body body::after {
 }
 
 [class*=__container] {
-  max-width: 109.25rem;
+  max-width: 1748px;
   margin: 0 auto;
 }
 
@@ -4586,25 +4586,25 @@ input[type=number]::-webkit-outer-spin-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.875rem 2.1875rem 2.5rem;
+  padding: 30px 35px 40px;
   background-color: var(--icon-shop);
   border-radius: 4px;
-  margin-bottom: 1.875rem;
-  margin-top: 0.625rem;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .countdown__text {
   width: auto;
-  padding-right: 1.25rem;
-  max-width: 10rem;
+  padding-right: 20px;
+  max-width: 160px;
   border-right: 1px solid var(--border);
-  font-size: 1.125rem;
+  font-size: 18px;
   color: var(--accent);
   line-height: 1.6;
 }
 
 .countdown__time-section {
-  min-width: 4.0625rem;
+  min-width: 65px;
   text-align: center;
   position: relative;
 }
@@ -4621,7 +4621,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .countdown__count {
-  font-size: 2.25rem;
+  font-size: 36px;
   font-weight: 700;
   color: var(--num);
   line-height: 1;
@@ -5150,7 +5150,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .select {
   min-width: 0;
-  margin-bottom: 1.375rem;
+  margin-bottom: 22px;
   position: relative;
 }
 
@@ -5162,21 +5162,21 @@ input[type=number]::-webkit-outer-spin-button {
   border: 2px solid;
   border-color: var(--border);
   border-radius: 1px;
-  min-height: 2.6875rem;
+  min-height: 43px;
   background-color: var(--background);
   width: 100%;
   box-sizing: border-box;
   cursor: pointer;
   display: block;
-  height: 1.75rem;
+  height: 28px;
   margin: 0 0 -4px;
 }
 
 .select__value {
   display: block;
-  padding-left: 0.5rem;
-  padding-right: 1.25rem;
-  line-height: 2.25rem;
+  padding-left: 8px;
+  padding-right: 20px;
+  line-height: 36px;
   color: #999;
   text-align: start;
   overflow: hidden;
@@ -5240,22 +5240,22 @@ input[type=number]::-webkit-outer-spin-button {
   border-radius: 1px;
   box-sizing: border-box;
   position: absolute;
-  bottom: 2.75rem;
+  bottom: 44px;
   width: 100%;
 }
 
 .select__scroll {
   overflow-y: auto;
   overflow-x: hidden;
-  max-height: 12.5rem;
+  max-height: 200px;
 }
 
 .select__option {
   width: 100%;
   text-align: left;
   cursor: pointer;
-  padding: 0.375rem;
-  font-size: 0.875rem;
+  padding: 6px;
+  font-size: 14px;
   color: var(--text);
   font-weight: 400;
   transition: all 1s;
@@ -5279,8 +5279,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .sorting__select .select {
-  min-width: 19.875rem;
-  margin-bottom: 0rem;
+  min-width: 318px;
+  margin-bottom: 0;
   position: relative;
 }
 
@@ -5292,21 +5292,21 @@ input[type=number]::-webkit-outer-spin-button {
   border: 2px solid;
   border-color: var(--border);
   border-radius: 1px;
-  min-height: 2.6875rem;
+  min-height: 43px;
   background-color: var(--background);
   width: 100%;
   box-sizing: border-box;
   cursor: pointer;
   display: block;
-  height: 1.75rem;
+  height: 28px;
   margin: 0 0 -4px;
 }
 
 .sorting__select .select__value {
   display: block;
-  padding-left: 0.5rem;
-  padding-right: 1.25rem;
-  line-height: 2.25rem;
+  padding-left: 8px;
+  padding-right: 20px;
+  line-height: 36px;
   color: #999;
   text-align: start;
   overflow: hidden;
@@ -5328,7 +5328,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin-top: -2px;
   position: absolute;
   top: 50%;
-  right: 0.625rem;
+  right: 10px;
   width: 0;
 }
 
@@ -5378,15 +5378,15 @@ input[type=number]::-webkit-outer-spin-button {
 .sorting__select .select__scroll {
   overflow-y: auto;
   overflow-x: hidden;
-  max-height: 12.5rem;
+  max-height: 200px;
 }
 
 .sorting__select .select__option {
   width: 100%;
   text-align: left;
   cursor: pointer;
-  padding: 0.375rem;
-  font-size: 0.875rem;
+  padding: 6px;
+  font-size: 14px;
   color: var(--text);
   font-weight: 400;
   transition: all 1s;
@@ -5405,10 +5405,10 @@ input[type=number]::-webkit-outer-spin-button {
   z-index: 5;
 }
 
-ting .rating {
+ .rating {
   display: flex;
   align-items: flex-end;
-  font-size: 0.875rem;
+  font-size: 14px;
   line-height: 0.75;
   transition: opacity 0.3s ease 0s;
 }
@@ -5798,17 +5798,17 @@ ting .rating {
   align-items: center;
   justify-content: center;
   width: 100%;
-  row-gap: 0.625rem;
+  row-gap: 10px;
 }
 
 .pagging__arrow {
   align-items: center;
   display: flex;
-  -webkit-column-gap: 0.625rem;
-     -moz-column-gap: 0.625rem;
-          column-gap: 0.625rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
   text-transform: uppercase;
   font-weight: 700;
   color: var(--accent);
@@ -5825,15 +5825,16 @@ ting .rating {
 .pagging__item {
   border-radius: 50%;
   display: inline-block;
-  width: 1.875rem;
-  height: 1.875rem;
-  line-height: 1.875rem;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
   text-align: center;
   background-color: transparent;
   color: var(--light);
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
+  
 }
 
 .pagging__item._active {
@@ -8902,7 +8903,7 @@ span#slider-snap-value-upper {
   }
 
   .countdown {
-    padding: 1.875rem 0.1875rem 2.5rem;
+    padding: 30px 35px 40px;
     flex-wrap: wrap;
   }
 
@@ -8927,7 +8928,7 @@ span#slider-snap-value-upper {
   }
 
   .sorting__select .select {
-    min-width: 18.125rem;
+    min-width: 318px;
   }
 }
 
